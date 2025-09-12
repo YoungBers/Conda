@@ -1,0 +1,28 @@
+# папки окружений
+.venv/
+venv/
+env/
+
+# кэш/временные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.ipynb_checkpoints/
+*.sqlite3
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# данные (пример — не коммитим большие CSV)
+data/
+*.csv
+*.tsv
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
